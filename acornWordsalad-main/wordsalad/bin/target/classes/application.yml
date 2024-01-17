@@ -1,0 +1,26 @@
+#server:
+#    port: 8067
+#
+#spring:
+#
+#    messages:
+#        basename: errors
+#
+#    datasource:
+#        driver-class-name: com.mysql.cj.jdbc.Driver
+#        url: jdbc:mysql://database-1.cqulwmzynqtg.ap-northeast-2.rds.amazonaws.com:3306/WordSalad
+#        username: admin
+#        password: acornadmin123
+#    jpa:
+#        show-sql: true
+#        hibernate:
+#            ddl-auto: update
+#    output:
+#        ansi:
+#            enabled: ALWAYS
+#    profiles:
+#        include: oauth
+#    mvc:
+#        view:
+#            prefix: /WEB-INF/views/
+#            suffix: .jsp
