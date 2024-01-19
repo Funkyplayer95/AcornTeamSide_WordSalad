@@ -26,7 +26,7 @@ public class MypageController {
 
 	@GetMapping("/Mypage")
 	public String findById(ModelMap modelMap, HttpServletRequest req) {
-		
+
 		String id = req.getSession().getAttribute("id").toString();
 		
 		UserDto userInfoData = mypageService.getuserInfo(id);
